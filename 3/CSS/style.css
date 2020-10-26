@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+p {
+    text-indent: 30px;
+    opacity: 0.33;
+}
+
+.title {
+    columns: #000000;
+    font-size: 46px;
+    letter-spacing: 1px;
+    text-shadow: 0 4px 4px blue;
+}
+
+.back-img {
+    background-image:url(/3/img/2.7_site1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.parent {
+    background-color: red;
+}
+
+.child {
+    background-color: blue;
+}
+
+.parent,
+.child {
+    width: 50vw;
+}
+
+.block-model {
+    box-sizing: content-box;
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    border: 6px solid #666;
+
+    background-color: #f1f1f1;
+}
