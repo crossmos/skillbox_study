@@ -75,6 +75,7 @@ a {
 .programm-list {
 	padding-left: 200px;
 	font-size: 18px;
+	color: blue;
 }
 
 .programm-p {
@@ -88,6 +89,36 @@ a {
 	margin-bottom: 25px;
 	font-size: 36px;
 	color: #2f1ce4;
+}
+
+.programm-img {
+	display: inline-block;
+	margin: 50px 0;
+	padding-left: 200px;
+	text-align: center;
+}
+
+.programm-table {
+	margin-top: 100px;
+	border-collapse: collapse;
+	border: 1px solid #a0a0a0;
+}
+
+.programm-tablecells {
+	border: 1px solid #a0a0a0;
+	padding: 16px;
+}
+
+.table-caption {
+	margin-bottom: 40px;
+}
+
+.table-foot {
+	color: #2f1ce4;
+}
+
+.list-text {
+	color: #000000;
 }
 
 .download-button {
