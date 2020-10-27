@@ -61,7 +61,7 @@ a {
 .main-title {
 	margin-bottom: 30px;
 	font-size: 92px;
-	font-family: ‘Graphik LCG’, sans-serif
+	font-family: ‘Graphik LCG’, sans-serif;
 	color: #ffffff;
 }
 
@@ -70,6 +70,16 @@ a {
 	padding-left: 100px;
 	font-size: 48px;
 	color: #222020;
+}
+
+.programm-list {
+	padding-left: 200px;
+	font-size: 18px;
+}
+
+.programm-p {
+	padding-left: 180px;
+	margin-bottom: 20px;
 }
 
 .programm-title {
