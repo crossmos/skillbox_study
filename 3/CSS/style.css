@@ -50,36 +50,61 @@ a {
 }
 
 .main-content {
-	background-color: #222020;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #222020;
 }
 
 .main-title {
-	color: #ffffff;
-	font-size: 64px;
-	padding-bottom: 30px;
+	margin-bottom: 30px;
+	font-size: 92px;
 	font-family: ‘Graphik LCG’, sans-serif
+	color: #ffffff;
+}
+
+.programm-main-title {
+	margin-top: 100px;
+	padding-left: 100px;
+	font-size: 48px;
+	color: #222020;
+}
+
+.programm-title {
+	padding-left: 180px;
+	margin-top: 100px;
+	margin-bottom: 25px;
+	font-size: 36px;
+	color: #2f1ce4;
 }
 
 .download-button {
-	color: #ffffff;
-	background-color: #2f1ce4;
-	border: 3px #2f1ce4 solid ;
 	display: inline-block;
 	padding: 20px;
 	margin-right: 10px;
+	border: 3px #2f1ce4 solid ;
+	color: #ffffff;
+	background-color: #2f1ce4;
 }
 
 .more-button {
-	color: #ffffff;
-	border: 3px #ffffff solid ;
 	display: inline-block;
 	padding: 20px;
 	box-sizing: border-box;
+	border: 3px #ffffff solid ;
+	color: #ffffff;
+}
+
+.back-button {
+	display: flex;
+    align-items: center;
+}
+
+.back-icon {
+	width: 20px;
+	margin-right: 12px;
 }
 
 .container {
